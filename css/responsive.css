@@ -1,0 +1,83 @@
+/* tells browser digital screens and the min-width means that if the screen width is any
+larger than 480, then we should use the following style. 480 px is common for smartphones 
+in landscape mode */
+@media screen and (min-width: 480px) {
+  
+/*****************************
+Two Column Layout
+*****************************/
+  
+  #primary {
+    float: left;
+    width: 50%;
+  }
+  
+  #secondary {
+    float: right;
+    width: 40%;
+  }
+  
+/*****************************
+Page: Portfolio
+*****************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(3n+1) {
+    clear: left;
+  }
+  
+  
+/*****************************
+Page: About
+*****************************/
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }  
+  
+}
+
+/*large tablets and normal sized desktops */
+@media screen and (min-width: 660px) {
+ 
+/*****************************
+Header
+*****************************/
+ 
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: .825em;
+    margin-bottom:20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #2980B9;
+    margin-bottom: 60px;
+  }
+/*****************************
+
+*****************************/
+  
+}
